@@ -75,6 +75,10 @@ img {
   padding: 14px 0;
 }
 
+.topbar__nav {
+  margin-right: 4px;
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -126,7 +130,8 @@ img {
 .hero__inner {
   background: linear-gradient(135deg, rgba(255, 215, 206, 0.5), rgba(138, 254, 198, 0.35));
   border-radius: var(--radius-xl);
-  padding: 26px 20px;
+  padding: 26px 24px;
+  margin: 0 8px;
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.06);
   position: relative;
   overflow: hidden;
@@ -266,7 +271,8 @@ img {
   background: rgba(255, 215, 206, 0.42);
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: var(--radius-xl);
-  padding: 22px 20px;
+  padding: 22px 24px;
+  margin: 0 8px;
 }
 
 .trust-list {
@@ -286,7 +292,8 @@ img {
 
 .legal__inner {
   border-radius: var(--radius-xl);
-  padding: 22px 20px;
+  padding: 22px 24px;
+  margin: 0 8px;
   border: 1px dashed rgba(0, 0, 0, 0.18);
   background: rgba(0, 125, 255, 0.04);
 }
